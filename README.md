@@ -1,6 +1,6 @@
 # Obs-Archief-NL
 
-Een Obsidian-plugin die van een permalink van [archieven.nl](https://www.archieven.nl) of het [Stadsarchief Amsterdam](https://archief.amsterdam) een notitie maakt, met de metadata als properties en de archiefstructuur als mappen.
+Een Obsidian-plugin die van een permalink van [archieven.nl](https://www.archieven.nl) of het [Stadsarchief Amsterdam](https://archief.amsterdam) een notitie maakt in je Obsidian vault, met de metadata als properties en de archiefstructuur als mappen.
 
 **Maker:** Milan van Lange
 **Jaar:** 2026
