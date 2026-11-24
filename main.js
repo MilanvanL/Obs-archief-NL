@@ -283,7 +283,7 @@ function askText(app, heading, placeholder) {
               this.close();
             }
           });
-          setTimeout(() => t.inputEl.focus(), 0);
+          window.setTimeout(() => t.inputEl.focus(), 0);
         });
         new import_obsidian.Setting(this.contentEl).addButton(
           (b) => b.setButtonText("OK").setCta().onClick(() => {
@@ -346,7 +346,7 @@ function askDetails(app, info) {
           'Wordt de titel van de notitie. Plak de hele regel van archieven.nl ("2567 Register van \u2026") om nummer en naam tegelijk in te vullen.'
         );
         const inv = this.inputs.inventarisnummer.inputEl;
-        inv.addEventListener("paste", () => setTimeout(() => this.splitLine(), 0));
+        inv.addEventListener("paste", () => window.setTimeout(() => this.splitLine(), 0));
         inv.addEventListener("blur", () => this.splitLine());
         field("Naam", "titel", "Voorafgaand ingevuld vanaf archieven.nl.");
         field("Overkoepelend inventarisnummer", "overkoepelend", "Optioneel; maakt een extra submap.");
@@ -379,7 +379,7 @@ function askDetails(app, info) {
             this.close();
           })
         );
-        setTimeout(() => {
+        window.setTimeout(() => {
           var _a2;
           return (_a2 = this.inputs.inventarisnummer) == null ? void 0 : _a2.inputEl.focus();
         }, 0);
