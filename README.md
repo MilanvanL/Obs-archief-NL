@@ -4,7 +4,7 @@ Een Obsidian-plugin die van een permalink van [archieven.nl](https://www.archiev
 
 **Maker:** Milan van Lange
 **Jaar:** 2026
-**Versie:** 0.2.0 (beta)
+**Versie:** 1.0.0 (beta)
 
 ---
 
