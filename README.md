@@ -1,4 +1,4 @@
-# Obs-Archief-NL
+# Archief-NL
 
 Een Obsidian-plugin die van een permalink van [archieven.nl](https://www.archieven.nl) of het [Stadsarchief Amsterdam](https://archief.amsterdam) een notitie maakt in je Obsidian vault, met de metadata als properties en de archiefstructuur als mappen.
 
@@ -95,30 +95,13 @@ De notitie bevat daarnaast een leesbaar overzicht van deze gegevens, een link na
 - Obsidian 1.5.0 of nieuwer
 - [Node.js](https://nodejs.org) (LTS) om de plugin te bouwen
 
-### Bouwen
 
-Plaats de projectbestanden in:
-
-```
-<jouw vault>/.obsidian/plugins/obs-archief-nl/
-```
-
-Bestanden: `main.ts`, `manifest.json`, `package.json`, `tsconfig.json`, `esbuild.config.mjs`.
-
-Open een terminal in die map en voer uit:
-
-```
-npm install
-npm run build
-```
-
-Dit maakt `main.js`. Tijdens het ontwikkelen herbouwt `npm run dev` bij elke wijziging.
 
 ### Inschakelen
 
 1. Herlaad Obsidian (`Ctrl/Cmd + R`).
 2. Ga naar **Instellingen → Community plugins**, zet **Beperkte modus** uit en klik op het ververs-icoon.
-3. Schakel **Obs-Archief-NL** in.
+3. Schakel **Archief-NL** in.
 
 Voor gebruik zijn alleen `main.js` en `manifest.json` nodig. `.obsidian` is een verborgen map; zet in je bestandsbeheer verborgen items aan.
 
