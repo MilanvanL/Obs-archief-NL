@@ -146,6 +146,7 @@ Voor gebruik zijn alleen `main.js` en `manifest.json` nodig. `.obsidian` is een 
 Deze plugin is niet gelieerd aan archieven.nl of een archiefinstelling. Houd je aan de [voorwaarden van archieven.nl](https://www.archieven.nl/nl/algemene-voorwaarden) en de bepalingen van de betrokken archiefinstelling bij het hergebruik van de gegevens.
 
 ## Licentie
+GNU AGPLv3
 
 © 2026 Milan van Lange
 
