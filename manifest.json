@@ -1,0 +1,9 @@
+{
+  "id": "obs-archief-nl",
+  "name": "Obs-Archief-NL",
+  "version": "0.2.0",
+  "minAppVersion": "1.5.0",
+  "description": "Maak notities van permalinks van archieven.nl en het Stadsarchief Amsterdam, met metadata en een mapstructuur.",
+  "author": "",
+  "isDesktopOnly": false
+}
