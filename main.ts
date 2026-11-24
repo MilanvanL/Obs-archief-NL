@@ -388,7 +388,7 @@ function askText(app: App, heading: string, placeholder: string): Promise<string
               this.close();
             }
           });
-          setTimeout(() => t.inputEl.focus(), 0);
+          window.setTimeout(() => t.inputEl.focus(), 0);
         });
         new Setting(this.contentEl).addButton((b) =>
           b.setButtonText("OK").setCta().onClick(() => {
@@ -460,7 +460,7 @@ function askDetails(app: App, info: PageInfo): Promise<ArchiefRecord | null> {
           'Wordt de titel van de notitie. Plak de hele regel van archieven.nl ("2567 Register van …") om nummer en naam tegelijk in te vullen.'
         );
         const inv = this.inputs.inventarisnummer!.inputEl;
-        inv.addEventListener("paste", () => setTimeout(() => this.splitLine(), 0));
+        inv.addEventListener("paste", () => window.setTimeout(() => this.splitLine(), 0));
         inv.addEventListener("blur", () => this.splitLine());
 
         field("Naam", "titel", "Voorafgaand ingevuld vanaf archieven.nl.");
@@ -500,7 +500,7 @@ function askDetails(app: App, info: PageInfo): Promise<ArchiefRecord | null> {
           })
         );
 
-        setTimeout(() => this.inputs.inventarisnummer?.inputEl.focus(), 0);
+        window.setTimeout(() => this.inputs.inventarisnummer?.inputEl.focus(), 0);
       }
       onClose() {
         this.contentEl.empty();
